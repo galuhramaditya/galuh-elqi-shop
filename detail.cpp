@@ -1,5 +1,5 @@
 // galuh ramaditya - 1301184505
-//
+// Elqi Ashok - 1301184158
 
 #ifndef DETAIL_CPP_INCLUDED
 #define DETAIL_CPP_INCLUDED
