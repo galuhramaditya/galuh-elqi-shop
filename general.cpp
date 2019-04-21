@@ -10,7 +10,7 @@ void blank()
 {
     string tmp;
     cout << "\n\ntype anything and press <enter>\n";
-    cin >> tmp;
+    getline(cin >> ws, tmp);
 }
 
 void clear()
