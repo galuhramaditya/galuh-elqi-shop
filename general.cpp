@@ -20,10 +20,10 @@ void blank()
 
 void clear()
 {
-#ifdef _WIN32
-    system("cls");
-#else
+#ifdef __unix
     system("clear");
+#else
+    system("cls");
 #endif
 }
 
