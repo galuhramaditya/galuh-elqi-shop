@@ -9,13 +9,11 @@
 
 int input;
 
-void blank();
-
 void listItem(item &i, invoice &c, detail &d)
 {
     do
     {
-        system("clear");
+        clear();
         cout << "<< List of Items\n\n";
         print(i);
         cout << "\nMENU\n";
@@ -50,7 +48,7 @@ void listInvoice(item &i, invoice &c, detail &d)
 {
     do
     {
-        system("clear");
+        clear();
         cout << "<< List of Invoice\n\n";
         print(c);
         cout << "\nMENU\n";
@@ -74,13 +72,6 @@ void listInvoice(item &i, invoice &c, detail &d)
         }
         cout << endl;
     } while (input != 0);
-}
-
-void blank()
-{
-    string tmp;
-    cout << "\n\ntype anything and press <enter>\n";
-    cin >> tmp;
 }
 
 #endif

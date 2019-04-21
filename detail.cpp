@@ -78,8 +78,9 @@ void print(detail d, invoiceAddress c)
 		if (c == p->invoice)
 		{
 			cout << "item\t\t: " << p->item->info.name << endl;
-			cout << "quantity\t: " << p->info.quantity << endl;
+			cout << "price/pcs\t: " << p->item->info.price << endl;
 			cout << "note\t\t: " << p->info.note << endl;
+			cout << "quantity\t: " << p->info.quantity << endl;
 			cout << "total price\t: " << p->item->info.price * p->info.quantity << endl;
 			cout << "-------------------------------\n";
 		}

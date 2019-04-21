@@ -1,9 +1,7 @@
 // galuh ramaditya - 1301184505
 // Elqi Ashok - 1301184158
 
-#include "item.cpp"
-#include "invoice.cpp"
-#include "detail.cpp"
+#include "general.cpp"
 
 void buyItem(item &i, invoice &c, detail &d)
 {
@@ -56,7 +54,7 @@ void buyItem(item &i, invoice &c, detail &d)
 void addItem(item &i)
 {
     dataItem x;
-    system("clear");
+    clear();
     cout << "<< Add Item\n\n";
     cout << "item name\t: ";
     cin >> x.name;

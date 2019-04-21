@@ -26,7 +26,7 @@ void menu()
 
 	do
 	{
-		system("clear");
+		clear();
 		cout << "===========================\n";
 		cout << "||   Galuh & Elqi Shop   ||\n";
 		cout << "===========================\n";

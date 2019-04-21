@@ -1,9 +1,7 @@
 // galuh ramaditya - 1301184505
 // Elqi Ashok - 1301184158
 
-#include "item.cpp"
-#include "invoice.cpp"
-#include "detail.cpp"
+#include "general.cpp"
 
 void detailInvoice(invoice c, detail d)
 {
@@ -16,7 +14,7 @@ void detailInvoice(invoice c, detail d)
     _invoice = search(c, id);
     if (_invoice != NULL)
     {
-        system("clear");
+        clear();
         cout << "<< Detail Item\n\n";
         cout << "id\t\t: " << _invoice->info.id << endl;
         cout << "time\t\t: " << _invoice->info.time;
