@@ -4,6 +4,7 @@
 #include "item.cpp"
 #include "invoice.cpp"
 #include "detail.cpp"
+#include <cstdlib>
 
 void blank()
 {
