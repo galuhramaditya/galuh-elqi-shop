@@ -7,14 +7,14 @@
 
 void blank()
 {
-#ifdef _WIN32
-#include <conio.h>
-    cout << "\n\npress <enter>\n";
-    getch();
-#else
+#ifdef __unix
     string tmp;
     cout << "\n\ntype anything and press <enter>\n";
     cin >> tmp;
+#else
+#include <conio.h>
+    cout << "\n\npress <enter>\n";
+    getch();
 #endif
 }
 
